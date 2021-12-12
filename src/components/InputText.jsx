@@ -41,8 +41,8 @@ class InputText extends React.Component {
           <textarea
             data-testid="storyline-input"
             name="storyline"
-            cols="30"
-            rows="10"
+            cols="25"
+            rows="1"
             value={ storyline }
             onChange={ handleChange }
           />
